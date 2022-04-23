@@ -1,9 +1,6 @@
 # bcp-config-server
 Config server para las apis service payment
 
-# bs-bcp-service-payment
-Api de negocio para el pago de servicios BCP
-
 ## Create docket image "docker build"
 `docker build -t bs-bcp-service-payment:0.0.1 .`
 
