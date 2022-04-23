@@ -1,0 +1,14 @@
+
+server:
+  port: 8888
+spring:
+  application:
+    name: bcp-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gcas17/bcp-service-properties.git
+          default-label: main
+          timeout: 10
